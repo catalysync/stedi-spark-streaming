@@ -1,0 +1,27 @@
+Spark Command: /opt/java/openjdk/bin/java -cp /opt/spark/conf:/opt/spark/jars/* -Xmx1g org.apache.spark.deploy.worker.Worker --webui-port 8081 spark://a61e3ce9c3b8:7077
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/05/27 19:22:56 INFO Worker: Started daemon with process name: 110@a61e3ce9c3b8
+26/05/27 19:22:56 INFO SignalUtils: Registering signal handler for TERM
+26/05/27 19:22:56 INFO SignalUtils: Registering signal handler for HUP
+26/05/27 19:22:56 INFO SignalUtils: Registering signal handler for INT
+26/05/27 19:22:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/05/27 19:22:57 INFO SecurityManager: Changing view acls to: root
+26/05/27 19:22:57 INFO SecurityManager: Changing modify acls to: root
+26/05/27 19:22:57 INFO SecurityManager: Changing view acls groups to: 
+26/05/27 19:22:57 INFO SecurityManager: Changing modify acls groups to: 
+26/05/27 19:22:57 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: root; groups with view permissions: EMPTY; users with modify permissions: root; groups with modify permissions: EMPTY
+26/05/27 19:22:57 INFO Utils: Successfully started service 'sparkWorker' on port 36037.
+26/05/27 19:22:57 INFO Worker: Worker decommissioning not enabled.
+26/05/27 19:22:57 INFO Worker: Starting Spark worker 172.17.0.2:36037 with 8 cores, 30.3 GiB RAM
+26/05/27 19:22:57 INFO Worker: Running Spark version 3.5.0
+26/05/27 19:22:57 INFO Worker: Spark home: /opt/spark
+26/05/27 19:22:57 INFO ResourceUtils: ==============================================================
+26/05/27 19:22:57 INFO ResourceUtils: No custom resources configured for spark.worker.
+26/05/27 19:22:57 INFO ResourceUtils: ==============================================================
+26/05/27 19:22:57 INFO JettyUtils: Start Jetty 0.0.0.0:8081 for WorkerUI
+26/05/27 19:22:57 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+26/05/27 19:22:57 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://a61e3ce9c3b8:8081
+26/05/27 19:22:57 INFO Worker: Connecting to master a61e3ce9c3b8:7077...
+26/05/27 19:22:57 INFO TransportClientFactory: Successfully created connection to a61e3ce9c3b8/172.17.0.2:7077 after 46 ms (0 ms spent in bootstraps)
+26/05/27 19:22:57 INFO Worker: Successfully registered with master spark://a61e3ce9c3b8:7077
